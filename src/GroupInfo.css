@@ -1,0 +1,82 @@
+.groupInfo{
+    width: 400px;
+    display: block;
+}
+
+.groupInfo__top{
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.groupInfo__container{
+    height: 300px;
+}
+
+.groupInfo__Profile{
+    display: grid;
+    background-color: white;
+    height: 300px;
+    align-items: center;
+}
+
+#avatar{
+    position: relative;
+    left:120px;
+    top:20px;
+    height: 150px;
+    width: 150px;
+}
+
+.groupInfo__ProfileTitle{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: large;
+}
+
+.groupInfo__createdDate{
+    font-size: smaller;
+}
+
+.groupInfo__description{
+    margin-top: 10px;
+    padding-left:20px;
+    padding-top: 15px;
+    background-color: white;
+    display: grid;
+}
+
+.groupInfo__description > p{
+    font-size: small;
+    color: green;
+}
+
+.groupInfo__desc{
+    display: flex;
+}
+
+#createIcon{
+    position: absolute;
+    right:100px;
+}
+
+.description{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.description > form > input{
+    border:none;
+}
+
+.description > form > button{
+    display: none;
+}
+
+.grpInfo__file{
+    display: none;
+}
+
+.groupInfo__uploadButton{
+    display: none;
+}
